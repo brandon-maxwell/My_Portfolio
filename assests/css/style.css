@@ -1,0 +1,59 @@
+body {
+    margin: 20px;
+    font-family: "Merriweather", serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+aside {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    width: 30px;
+}
+
+/* .profile_pic {
+    align-items: center;
+    height: ;
+    width: ;
+} */
+
+main {
+    margin-left: 290px;
+
+}
+
+.about {
+    margin: 20px;
+
+}
+
+.work {
+    margin: 20px;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    border: 5px solid;
+    background-color:;
+    color:;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
