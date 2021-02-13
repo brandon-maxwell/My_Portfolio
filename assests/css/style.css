@@ -1,34 +1,63 @@
 body {
-    margin: 20px;
     font-family: "Merriweather", serif;
     letter-spacing: 1px;
     line-height: 1.5;
 }
 
-aside {
+.aside {
+    top: 0;
+    left: 0;
     position: fixed;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: flex-start;
-    height: 100%;
-    width: 30px;
+    align-items: center;
+    height: 100vh;
+    width: 17rem;
+    background-image: url(../images/wood.jpg);
+    background-size: cover;
 }
 
-/* .profile_pic {
+h1 {
+    text-align: center;
+    font-size: 10rem;
+}
+
+.profile_pic {
+    padding: 20px;
     align-items: center;
-    height: ;
-    width: ;
-} */
+    height: fit-content ;
+    width: fit-content;
+}
+
+.profile_pic img {
+    border-radius: 50%;
+    border: 5px solid;
+}
 
 main {
-    margin-left: 290px;
+    margin-left: 270px;
+    background-image:url(../images/sky.jpg);
+    padding: 20px;
+    background-size: cover;
+}
 
+.main_background {
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.page-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .about {
     margin: 20px;
-
 }
 
 .work {
@@ -41,19 +70,52 @@ main {
     justify-content: center;
 }
 
+.flex-item:first-child {
+    min-height: 300px;
+}
+
 .flex-item {
-    border: 5px solid;
-    background-color:;
-    color:;
+    opacity: 0.6;
+    border: 5px solid black;
+    border-radius: 30px;
+    color: black;
     min-height: 150px;
-    max-height: 150px;
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-blend-mode: soft-light;
-    background-size: 150%;
-    transition: all 0.5s;
-    font-size: 0.9rem;
+    padding-bottom: 20px;
+    margin: 15px;
+    font-size: 25px;
+    transition-duration: 2s;
+}
+
+/* portfolio project images go here once ready to update */
+.Project-1 {
+    background-image: url(https://content.techgig.com/thumb/msid-78949110,width-860,resizemode-4/9-Best-programming-project-ideas-for-beginners-to-level-up-their-coding-skills.jpg?119058);
+}
+
+.Project-2 {
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--JNwqeySb--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://i.imgur.com/BsQTJKc.jpg);
+}
+
+.Project-3 {
+    background-image: url(https://www.irishtimes.com/polopoly_fs/1.3135544.1498571483!/image/image.jpg_gen/derivatives/landscape_620/image.jpg);
+}
+
+.Project-4 {
+    background-image: url(https://a.simbi.com/images/125144/images/large-791b70c293bacb9a6fdd4d68eaf3f27c.jpg);
+}
+
+.Project-5 {
+    background-image: url(https://www.asdacademy.in/wp-content/uploads/2020/06/Screen-Shot-2020-01-08-at-3.44.24-PM-768x768.png);
+}
+
+.flex-item:hover {
+    transition: 1s cubic-bezier(.5,.25,.8,.6) !important;
+    opacity: 1;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    
 }
