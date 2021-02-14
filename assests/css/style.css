@@ -100,6 +100,7 @@ h2 {
     margin: 15px;
     font-size: 25px;
     transition-duration: 2s;
+    background-size: cover;
 }
 
 .flex-item div {
