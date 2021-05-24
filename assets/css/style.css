@@ -85,6 +85,11 @@ h2 {
     text-align: center;
 }
 
+.btn-flat {
+    z-index: 999;
+    position: relative;
+}
+
 .page-section {
     margin: 40px 60px;
 }
@@ -134,22 +139,23 @@ h2 {
 }
 
 .Project-1 {
-    background-image: url("../images/brew-me-screenshot.png");
+    background-image: url("../images/kiskis_screenshot.png");
     background-size: cover;
 }
 
 .Project-2 {
+    background-image: url("../images/brew-me-screenshot.png");
+    background-size: cover;
+}
+
+.Project-3 {
     background-image: url("../images/weather-screenshot.png");
     background-position: center;
 }
 
-.Project-3 {
+.Project-4 {
     background-image: url("../images/workday-scheduler-screenshot.png");
     background-position: center;
-}
-
-.Project-4 {
-    background-image: url(https://a.simbi.com/images/125144/images/large-791b70c293bacb9a6fdd4d68eaf3f27c.jpg);
 }
 
 .Project-5 {
